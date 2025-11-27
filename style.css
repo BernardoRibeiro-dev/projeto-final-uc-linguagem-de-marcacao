@@ -1,0 +1,829 @@
+body {
+    background-color: grey;
+}
+
+* {
+    margin: 0;
+}
+
+/* navegador */
+
+nav {
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+
+
+}
+
+
+nav a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 25px;
+    transition: color 0.5s;
+    transition: font-size 0.5s;
+
+}
+
+nav .navegação :hover {
+    color: rgb(255, 97, 97);
+    font-size: 50px;
+
+}
+
+.gloria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1300px;
+    flex: 2;
+}
+
+.navegação {
+    /* flex: 1; */
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 {
+
+    background-image: url(img/config1.png);
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.button2 {
+    background-image: url(img/perfil1.png);
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+
+
+/* cabeçalho */
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    height: 350px;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+.titulo {
+
+    float: left;
+
+}
+
+.capa {
+
+    width: 1200px;
+    height: 300px;
+    background-image: url(img/7.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.logo {
+
+    display: flex;
+    background-image: url(img/gt.png);
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+
+}
+
+/* .maquina {
+    background-image: url(img/maquina2.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+
+
+} */
+
+
+
+
+/* class seções*/
+.section1 {
+    background-color: black;
+    color: white;
+
+
+
+}
+
+.section2 {
+
+    background-color: grey;
+
+
+}
+
+
+/* section 1 */
+
+#section1 {
+
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+
+.photocat {
+    width: 200px;
+    height: 200px;
+    background-image: url(img/cat.png);
+    background-size: 600px;
+    background-position: center;
+
+    transition: background-size 0, 5s;
+    display: flex;
+
+
+}
+
+.photocat :hover {
+    background-size: 600px;
+    width: 300px;
+    height: 300px;
+
+}
+
+/* section2 */
+
+
+#section2 {
+    padding: 35px;
+
+
+}
+
+.apresentação {
+    display: flex;
+    /* width: 1000px; */
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+
+}
+
+.bernardo {
+    display: flex;
+    justify-content: left;
+    background-image: url(img/bernardo.jpg);
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 30px;
+
+
+}
+
+.texteu {
+    justify-content: right;
+    font-size: 20px;
+
+}
+
+/* section3 */
+#section3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 400px;
+    display: flex;
+
+
+}
+
+/* .gato5{
+display: inline;
+background-image: url(img/gato.png);
+    width: 160px;
+    height: 160px;
+    background-position:center ;
+    background-size: cover;
+
+} */
+.fot {
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    display: flex;
+
+}
+
+
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+
+
+
+}
+
+.box1 {
+    background-image: url(img/p1.jpeg);
+
+}
+
+.box2 {
+    background-image: url(img/p2.jpeg);
+
+}
+
+.box3 {
+    background-image: url(img/p3.jpeg);
+
+
+}
+
+.box4 {
+    background-image: url(img/p4.jpeg);
+
+    clear: both;
+
+}
+
+.box5 {
+    background-image: url(img/p5.jpeg);
+
+}
+
+.box6 {
+    background-image: url(img/p6.jpeg);
+
+}
+
+/* section4 */
+
+
+#section4 {
+    /* width: 1350px; */
+    height: 2385px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+
+}
+
+#section4 h3 {
+    font-size: 50px;
+
+
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo1,
+.photo2,
+.photo3,
+.photo4,
+.photo5,
+.photo6 {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+
+}
+
+.photo1 {
+    background-image: url(img/6.png);
+
+}
+
+.photo2 {
+    background-image: url(img/2.png);
+
+}
+
+.photo3 {
+    background-image: url(img/3.png);
+
+}
+
+.photo4 {
+    background-image: url(img/4.png);
+
+}
+
+.photo5 {
+    background-image: url(img/5.png);
+
+
+}
+
+
+
+.photo6 {
+    background-image: url(img/1.png);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+
+/* footer */
+
+
+footer {
+    padding-top: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+
+}
+
+.direitos ::before {
+    content: '©';
+    margin-right: 3px;
+    font-weight: bold;
+
+
+
+}
+
+.footercontact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+
+
+}
+
+.fc1 {
+    display: flex;
+}
+
+.fc2 {
+    display: flex;
+}
+
+.fc3 {
+    display: flex;
+}
+
+.insta {
+    background-image: url(img/insta.png);
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+
+}
+
+.wwt {
+    background-image: url(img/wwt.png);
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+
+    flex: 1;
+}
+
+.email {
+    background-image: url(img/email.png);
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+}
+
+@media (max-width:850px) {
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6 {
+        width: 100px;
+        height: 100px;
+        /* margin: 10px 10px 10px 10px;
+    padding-left: 50px; */
+        float: left;
+        background-position: center;
+        background-size: cover;
+    }
+
+    h2 {
+        font-size: 30px;
+
+    }
+
+    .texteu {
+        font-size: 15px;
+
+    }
+
+    .apresentação {
+        padding-left: 0;
+
+
+
+    }
+
+    .bernardo {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        justify-content: end;
+        background-position: center;
+        background-size: cover;
+        margin-left: none;
+    }
+
+
+
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: #333;
+
+
+    }
+
+    header {
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+    }
+
+    header h1 {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        font-size: 80px;
+
+    }
+
+    .logo {
+        width: 200px;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .capa {
+        width: 400px;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .fot {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+    #section2 {
+        display: flex;
+        font-size: 10px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+
+
+    }
+
+    h2 {
+        font-size: 20px;
+
+    }
+
+    .texteu {
+        font-size: 10px;
+
+    }
+
+    .apresentação {
+        padding-left: 0;
+
+
+
+    }
+
+    .bernardo {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        justify-content: end;
+        background-position: center;
+        background-size: cover;
+        margin-left: none;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6 {
+        width: 100px;
+        height: 100px;
+        /* margin: 10px 10px 10px 10px;
+    padding-left: 50px; */
+        float: left;
+        background-position: center;
+        background-size: cover;
+    }
+
+    /* #section3{
+        display: flex;
+        flex-direction: column;
+        padding: 70px;
+        height: 1350px;
+
+    } */
+    #section4 {
+        display: flex;
+        flex-direction: column;
+        padding: 70px;
+        height: 1350px;
+    }
+
+    #section4 h3 {
+        font-size: 20px;
+    }
+
+    nav a {
+        display: none;
+
+
+    }
+
+    .photo1,
+    .photo2,
+    .photo4,
+    .photo5,
+    .photo6 {
+        background-position: center;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+    }
+
+    .photo3 {
+        width: 130px;
+        height: 130px;
+        background-position: center;
+        background-size: cover;
+    }
+
+}
+
+@media (max-width: 350px) {
+    body {
+        background-color: #333;
+
+
+    }
+
+    header {
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+    }
+
+    header h1 {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        font-size: 50px;
+
+    }
+
+    .logo {
+        width: 200px;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .capa {
+        width: 300px;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .fot {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+    #section2 {
+        display: flex;
+        font-size: 10px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+
+
+    }
+
+    h2 {
+        font-size: 20px;
+
+    }
+
+    .texteu {
+        font-size: 10px;
+
+    }
+
+    .apresentação {
+        padding-left: 0;
+
+
+
+    }
+
+    .bernardo {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        justify-content: end;
+        background-position: center;
+        background-size: cover;
+        margin-left: none;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6 {
+        width: 100px;
+        height: 100px;
+        /* margin: 10px 10px 10px 10px;
+    padding-left: 50px; */
+        float: left;
+        background-position: center;
+        background-size: cover;
+    }
+
+    /* #section3{
+        display: flex;
+        flex-direction: column;
+        padding: 70px;
+        height: 1350px;
+
+    } */
+    #section4 {
+        display: flex;
+        flex-direction: column;
+        padding: 70px;
+        height: 1350px;
+    }
+
+    #section4 h3 {
+        font-size: 10px;
+    }
+
+    #section4 p {
+        font-size: 5px;
+    }
+
+    nav a {
+        display: none;
+
+
+    }
+
+    .photo1,
+    .photo2,
+    .photo4,
+    .photo5,
+    .photo6 {
+        background-position: center;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+    }
+
+    .photo3 {
+        width: 130px;
+        height: 130px;
+        background-position: center;
+        background-size: cover;
+    }
+
+}
